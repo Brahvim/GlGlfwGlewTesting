@@ -1,13 +1,23 @@
+#pragma region // Includes.
 #include <cstdlib>
 #include <iostream>
 
+// Need this man first!
+#include <GL/glew.h>
+
 #include <GL/gl.h>
-// #include <GL/glew.h>
+#include <GL/glu.h>
 #include <GLFW/glfw3.h>
+#pragma endregion
 
 int main() {
     // Initialize GLFW:
     glfwInit();
+
+    if (glewInit() != GLEW_OK) {
+        std::cerr << "GLEW failed!" << std::endl;
+        std::exit(EXIT_FAILURE);
+    }
 
     int numMonitors;
     if (GLFWmonitor **monitors = glfwGetMonitors(&numMonitors)) {
@@ -31,8 +41,6 @@ int main() {
 
     // Loop until the user closes the window:
     while (!glfwWindowShouldClose(window)) {
-        // Render OpenGL graphics here:
-
         // Swap front and back buffers:
         glfwSwapBuffers(window);
 
@@ -42,5 +50,4 @@ int main() {
 
     // Terminate GLFW:
     glfwTerminate();
-    return 0;
 }
