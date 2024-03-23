@@ -25,11 +25,13 @@ int main() {
         while (numMonitors > -1)
             std::cout << glfwGetMonitorName(monitors[--numMonitors]) << std::endl;
         std::cout << "(End of monitors list.)" << std::endl;
-    } else
+    } else {
+        std::cerr << "No monitors! Exiting..." << std::endl;
         std::exit(EXIT_FAILURE);
+    }
 
     // Create a windowed mode window and its OpenGL context:
-    GLFWwindow *window = glfwCreateWindow(640, 480, "Hello World", nullptr, nullptr);
+    GLFWwindow *window = glfwCreateWindow(640, 480, "GL/GLFW/GLEW Test", nullptr, nullptr);
     if (!window) {
         glfwTerminate();
         std::cerr << "\"Nope!\", said `glfwCreateWindow()`" << std::endl;
@@ -49,5 +51,6 @@ int main() {
     }
 
     // Terminate GLFW:
+    glfwDestroyWindow(window);
     glfwTerminate();
 }

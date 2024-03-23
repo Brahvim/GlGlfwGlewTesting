@@ -3,9 +3,9 @@
 
 CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxTest/src/Test.cpp \
   /usr/include/GL/gl.h \
-  /usr/include/GL/glext.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
   /usr/include/GLFW/glfw3.h \
-  /usr/include/KHR/khrplatform.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -59,6 +59,7 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
   /usr/include/c++/11/cctype \
   /usr/include/c++/11/cerrno \
   /usr/include/c++/11/clocale \
+  /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/cstdio \
   /usr/include/c++/11/cstdlib \
@@ -219,6 +220,8 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -253,11 +256,17 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
 /usr/include/c++/11/cctype:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/c++/11/cerrno:
 
@@ -273,10 +282,6 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/c++/11/system_error:
 
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -289,11 +294,9 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/c++/11/bits/ostream.tcc:
-
-/usr/include/c++/11/clocale:
-
 /usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -307,8 +310,6 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/c++/11/bits/postypes.h:
 
-/usr/include/c++/11/bits/nested_exception.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
@@ -316,6 +317,14 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/c++/11/cstdint:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
@@ -337,6 +346,8 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
+/usr/include/c++/11/bits/basic_ios.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/cwchar:
@@ -348,36 +359,6 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 /usr/include/c++/11/initializer_list:
 
 /usr/include/alloca.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/GL/glext.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/KHR/khrplatform.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/GL/gl.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/include/GLFW/glfw3.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -397,6 +378,22 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/sched.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/GLFW/glfw3.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
 /usr/include/c++/11/bits/concept_check.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
@@ -404,6 +401,12 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 /usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/wchar.h:
 
@@ -461,6 +464,8 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/GL/glu.h:
+
 /usr/include/c++/11/ios:
 
 /usr/include/c++/11/iosfwd:
@@ -482,6 +487,8 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/GL/glew.h:
 
 /usr/include/c++/11/bits/functexcept.h:
 
@@ -550,7 +557,3 @@ CMakeFiles/OpenGLApp.dir/src/Test.cpp.o: /home/brahvim/Code/OpenGl/GlDevOnLinuxT
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
