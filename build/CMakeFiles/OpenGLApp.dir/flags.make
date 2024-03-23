@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/brahvim/Code/OpenGl/GlDevOnLinuxTest/GLOB -I/home/brahvim/Code/OpenGl/GlDevOnLinuxTest/include_dir -I"/*.hpp"
+CXX_INCLUDES = -I/home/brahvim/Code/OpenGl/GlDevOnLinuxTest/include
 
 CXX_FLAGS = -g
 

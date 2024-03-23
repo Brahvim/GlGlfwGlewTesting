@@ -259,6 +259,9 @@ OpenGLApp_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 OpenGLApp_SOURCE_DIR:STATIC=/home/brahvim/Code/OpenGl/GlDevOnLinuxTest
 
+//The directory containing a CMake configuration file for glew.
+glew_DIR:PATH=glew_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/glfw3
 
