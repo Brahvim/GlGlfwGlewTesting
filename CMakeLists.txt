@@ -18,7 +18,9 @@ find_package(OpenAL REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLEW 2.0 REQUIRED)
 
+find_library(GLU_LIBRARY NAMES GLU)
+
 add_executable(OpenGLApp ${include_files} ${source_files} ${test_source_files})
 
 target_link_libraries(OpenGLApp PRIVATE OpenGL::GL glfw GLEW::GLEW
-                                        OpenAL::OpenAL)
+                                        OpenAL::OpenAL ${GLU_LIBRARY})
