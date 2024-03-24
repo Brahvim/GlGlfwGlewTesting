@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/brahvim/Code/OpenGl/GlDevOnLinuxTest/build",
-  "command": "/usr/bin/c++  -I/home/brahvim/Code/OpenGl/GlDevOnLinuxTest/include -g -o CMakeFiles/OpenGLApp.dir/src/Test.cpp.o -c /home/brahvim/Code/OpenGl/GlDevOnLinuxTest/src/Test.cpp",
-  "file": "/home/brahvim/Code/OpenGl/GlDevOnLinuxTest/src/Test.cpp",
-  "output": "CMakeFiles/OpenGLApp.dir/src/Test.cpp.o"
-}
-]
